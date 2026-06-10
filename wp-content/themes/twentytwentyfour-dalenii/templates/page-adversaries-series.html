@@ -1,0 +1,142 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"navigation"} /-->
+
+<!-- HERO SECTION -->
+<!-- wp:group {"style":{"color":{"background":"#141418"},"spacing":{"padding":{"top":"5rem","bottom":"4rem"}}},"layout":{"type":"constrained","contentSize":"1100px"}} -->
+<div class="wp-block-group" style="background-color:#141418;padding-top:5rem;padding-bottom:4rem">
+
+    <!-- wp:paragraph {"style":{"typography":{"fontFamily":"'Barlow', system-ui, sans-serif","fontSize":"0.65rem","fontWeight":"600","letterSpacing":"0.2em","textTransform":"uppercase"},"color":{"text":"#C8374A"},"spacing":{"margin":{"bottom":"1rem"}}}} -->
+    <p style="font-family:'Barlow',system-ui,sans-serif;font-size:0.65rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#C8374A">Dennis Drayton</p>
+    <!-- /wp:paragraph -->
+
+    <!-- wp:heading {"level":1,"style":{"typography":{"fontFamily":"'Barlow Condensed', 'Arial Narrow', sans-serif","fontWeight":"900","fontSize":"5.5rem","lineHeight":"0.9","letterSpacing":"-0.01em","textTransform":"uppercase"},"color":{"text":"#F0F0F8"},"spacing":{"margin":{"bottom":"1.5rem"}}}} -->
+    <h1 class="wp-block-heading" style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:900;font-size:5.5rem;line-height:0.9;letter-spacing:-0.01em;text-transform:uppercase;color:#F0F0F8">The<br>Adversaries<br>Series</h1>
+    <!-- /wp:heading -->
+
+    <!-- wp:columns {"style":{"spacing":{"blockGap":"2rem"}}} -->
+    <div class="wp-block-columns">
+
+        <!-- wp:column {"width":"60%"} -->
+        <div class="wp-block-column" style="flex-basis:60%">
+            <!-- wp:paragraph {"style":{"typography":{"fontFamily":"'EB Garamond', Georgia, serif","fontStyle":"italic","fontSize":"1rem","lineHeight":"1.6"},"color":{"text":"#8888A0"}}} -->
+            <p style="font-family:'EB Garamond',Georgia,serif;font-style:italic;font-size:1rem;line-height:1.6;color:#8888A0">Contemporary crime fiction. Four novels. One long, unresolved antagonism — and the question of whether it can survive the people caught inside it.</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:column -->
+
+        <!-- wp:column {"width":"20%"} -->
+        <div class="wp-block-column" style="flex-basis:20%;border-left:2px solid #2E2E3A;padding-left:1rem">
+            <!-- wp:paragraph {"style":{"typography":{"fontFamily":"'Barlow Condensed', 'Arial Narrow', sans-serif","fontSize":"1.8rem","fontWeight":"600","lineHeight":"1"},"color":{"text":"#8888A0"},"spacing":{"margin":{"bottom":"0.25rem"}}}} -->
+            <p style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-size:1.8rem;font-weight:600;line-height:1;color:#8888A0">4</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:paragraph {"style":{"typography":{"fontFamily":"'Barlow', system-ui, sans-serif","fontSize":"0.72rem","fontWeight":"600","letterSpacing":"0.15em","textTransform":"uppercase"},"color":{"text":"#52525E"}}} -->
+            <p style="font-family:'Barlow',system-ui,sans-serif;font-size:0.72rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:#52525E">Novels planned</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:column -->
+
+        <!-- wp:column {"width":"20%"} -->
+        <div class="wp-block-column" style="flex-basis:20%;border-left:2px solid #2E2E3A;padding-left:1rem">
+            <!-- wp:paragraph {"style":{"typography":{"fontFamily":"'Barlow Condensed', 'Arial Narrow', sans-serif","fontSize":"1.8rem","fontWeight":"600","lineHeight":"1"},"color":{"text":"#8888A0"},"spacing":{"margin":{"bottom":"0.25rem"}}}} -->
+            <p style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-size:1.8rem;font-weight:600;line-height:1;color:#8888A0">1</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:paragraph {"style":{"typography":{"fontFamily":"'Barlow', system-ui, sans-serif","fontSize":"0.72rem","fontWeight":"600","letterSpacing":"0.15em","textTransform":"uppercase"},"color":{"text":"#52525E"}}} -->
+            <p style="font-family:'Barlow',system-ui,sans-serif;font-size:0.72rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:#52525E">Published</p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:column -->
+
+    </div>
+    <!-- /wp:columns -->
+
+</div>
+<!-- /wp:group -->
+
+<!-- BOOKS SECTION — Note: configure the Query block taxonomy filter in the Editor after creating the adversaries-crime term -->
+<!-- wp:group {"style":{"color":{"background":"#0D0D0F"},"spacing":{"padding":{"top":"2rem","bottom":"4rem"}}},"layout":{"type":"constrained","contentSize":"1100px"}} -->
+<div class="wp-block-group" style="background-color:#0D0D0F;padding-top:2rem;padding-bottom:4rem">
+
+    <!-- Reading order note -->
+    <!-- wp:group {"style":{"color":{"background":"#141418"},"spacing":{"padding":{"top":"1rem","right":"1.5rem","bottom":"1rem","left":"1.5rem"},"margin":{"bottom":"2rem"}},"border":{"left":{"color":"#C8374A","width":"3px"}}}} -->
+    <div class="wp-block-group" style="background-color:#141418;border-left:3px solid #C8374A;padding:1rem 1.5rem;margin-bottom:2rem">
+        <!-- wp:paragraph {"style":{"typography":{"fontFamily":"'Barlow', system-ui, sans-serif","fontSize":"0.72rem","fontWeight":"500","letterSpacing":"0.04em"},"color":{"text":"#8888A0"}}} -->
+        <p style="font-family:'Barlow',system-ui,sans-serif;font-size:0.72rem;font-weight:500;letter-spacing:0.04em;color:#8888A0"><strong style="color:#F0F0F8">Reading order:</strong> The Adversary is Book One and the series prequel — start here. The subsequent novels follow directly.</p>
+        <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:query {"query":{"postType":"book","perPage":10,"orderBy":"meta_value_num","order":"ASC","metaKey":"book_series_position"},"layout":{"type":"default"}} -->
+    <div class="wp-block-query">
+
+        <!-- wp:post-template -->
+
+            <!-- wp:columns {"style":{"spacing":{"blockGap":"2rem","padding":{"top":"2.5rem","bottom":"2.5rem"}},"border":{"bottom":{"color":"#2E2E3A","width":"1px"}}}} -->
+            <div class="wp-block-columns" style="padding-top:2.5rem;padding-bottom:2.5rem;border-bottom:1px solid #2E2E3A">
+
+                <!-- wp:column {"width":"80px","style":{"spacing":{"padding":{"top":"0.25rem"}}}} -->
+                <div class="wp-block-column" style="flex-basis:80px;padding-top:0.25rem">
+                    <!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"book_series_position"}}}},"style":{"typography":{"fontFamily":"'Barlow Condensed', 'Arial Narrow', sans-serif","fontSize":"3.5rem","fontWeight":"900","lineHeight":"1","letterSpacing":"-0.02em"},"color":{"text":"#2E2E3A"}}} -->
+                    <p style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-size:3.5rem;font-weight:900;line-height:1;letter-spacing:-0.02em;color:#2E2E3A"></p>
+                    <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:column -->
+
+                <!-- wp:column {"width":"100px"} -->
+                <div class="wp-block-column" style="flex-basis:100px">
+                    <!-- wp:post-featured-image {"style":{"border":{"color":"#2E2E3A","width":"1px"}}} /-->
+                </div>
+                <!-- /wp:column -->
+
+                <!-- wp:column -->
+                <div class="wp-block-column">
+                    <!-- wp:post-title {"level":2,"isLink":true,"style":{"typography":{"fontFamily":"'Barlow Condensed', 'Arial Narrow', sans-serif","fontWeight":"700","fontSize":"2.2rem","lineHeight":"1","textTransform":"uppercase","letterSpacing":"0.01em"},"color":{"text":"#F0F0F8"},"spacing":{"margin":{"bottom":"0.6rem"}}}} /-->
+                    <!-- wp:post-excerpt {"style":{"typography":{"fontFamily":"'EB Garamond', Georgia, serif","fontSize":"0.9rem","lineHeight":"1.7"},"color":{"text":"#8888A0"}}} /-->
+                </div>
+                <!-- /wp:column -->
+
+                <!-- wp:column {"width":"140px"} -->
+                <div class="wp-block-column" style="flex-basis:140px">
+                    <!-- wp:buttons {"layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"0.5rem"}}} -->
+                    <div class="wp-block-buttons">
+                        <!-- wp:button {"metadata":{"bindings":{"url":{"source":"core/post-meta","args":{"key":"buy_link_primary"}}}},"style":{"color":{"background":"#C8374A","text":"#F0F0F8"},"typography":{"fontSize":"0.65rem","fontWeight":"600","letterSpacing":"0.1em","textTransform":"uppercase"},"border":{"radius":"0px"}}} -->
+                        <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" style="background-color:#C8374A;color:#F0F0F8;border-radius:0px;white-space:nowrap">Buy now ↗</a></div>
+                        <!-- /wp:button -->
+                    </div>
+                    <!-- /wp:buttons -->
+                </div>
+                <!-- /wp:column -->
+
+            </div>
+            <!-- /wp:columns -->
+
+        <!-- /wp:post-template -->
+
+        <!-- wp:query-no-results -->
+            <!-- wp:paragraph {"style":{"color":{"text":"#52525E"}}} -->
+            <p style="color:#52525E">No books found in this series.</p>
+            <!-- /wp:paragraph -->
+        <!-- /wp:query-no-results -->
+
+    </div>
+    <!-- /wp:query -->
+
+    <!-- Footer strip -->
+    <!-- wp:group {"style":{"color":{"background":"#141418"},"spacing":{"padding":{"top":"2rem","bottom":"2rem"},"margin":{"top":"3rem"}},"border":{"top":{"color":"#2E2E3A","width":"1px"}}}} -->
+    <div class="wp-block-group" style="background-color:#141418;border-top:1px solid #2E2E3A;padding-top:2rem;padding-bottom:2rem;margin-top:3rem">
+        <!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
+        <div class="wp-block-group">
+            <!-- wp:paragraph {"style":{"typography":{"fontFamily":"'EB Garamond', Georgia, serif","fontStyle":"italic","fontSize":"0.9rem"},"color":{"text":"#52525E"}}} -->
+            <p style="font-family:'EB Garamond',Georgia,serif;font-style:italic;font-size:0.9rem;color:#52525E">The Adversaries Series is contemporary crime fiction by Dennis Drayton, published by Dalenii Digital.</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:paragraph {"style":{"typography":{"fontFamily":"'Barlow', system-ui, sans-serif","fontSize":"0.65rem","fontWeight":"600","letterSpacing":"0.1em","textTransform":"uppercase"},"color":{"text":"#8888A0"}}} -->
+            <p style="font-family:'Barlow',system-ui,sans-serif;font-size:0.65rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#8888A0"><a href="/books/" style="color:#8888A0;text-decoration:none;">← All books</a></p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+
+</div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

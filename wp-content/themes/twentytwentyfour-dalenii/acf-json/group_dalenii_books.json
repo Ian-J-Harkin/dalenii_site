@@ -1,0 +1,145 @@
+{
+    "key": "group_dalenii_books",
+    "title": "Book Details",
+    "fields": [
+        {
+            "key": "field_book_isbn",
+            "label": "ISBN",
+            "name": "book_isbn",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "13-digit ISBN. Leave blank until confirmed.",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "allow_in_bindings": true,
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_book_series_position",
+            "label": "Series Position",
+            "name": "book_series_position",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Order within the series. Book One = 1, Book Two = 2, etc.",
+            "required": 1,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 1,
+            "allow_in_bindings": true,
+            "default_value": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_book_publication_date",
+            "label": "Publication Date",
+            "name": "book_publication_date",
+            "aria-label": "",
+            "type": "date_picker",
+            "instructions": "Leave blank if not yet confirmed.",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y",
+            "return_format": "Y-m-d",
+            "first_day": 1,
+            "default_to_current_date": 0
+        },
+        {
+            "key": "field_buy_link_primary",
+            "label": "Buy Link — Direct (Payhip)",
+            "name": "buy_link_primary",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "dennisdraytonbooks.com\/b\/[code] — the Payhip direct purchase link.",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "allow_in_bindings": true,
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_buy_link_universal",
+            "label": "Buy Link — Universal (Books2Read)",
+            "name": "buy_link_universal",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "books2read.com\/u\/[code] — routes to all retailers.",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "allow_in_bindings": true,
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_buy_link_amazon",
+            "label": "Buy Link — Amazon",
+            "name": "buy_link_amazon",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "Full Amazon product URL.",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "allow_in_bindings": true,
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "book"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1780264932
+}

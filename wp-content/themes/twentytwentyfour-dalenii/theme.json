@@ -1,0 +1,151 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "dd-ink",          "color": "#1C1814", "name": "Dalenii Ink" },
+        { "slug": "dd-ink-mid",      "color": "#3A342C", "name": "Dalenii Ink Mid" },
+        { "slug": "dd-ink-muted",    "color": "#6B5F52", "name": "Dalenii Ink Muted" },
+        { "slug": "dd-cream",        "color": "#F4F0E8", "name": "Dalenii Cream" },
+        { "slug": "dd-warm-white",   "color": "#FAF8F4", "name": "Dalenii Warm White" },
+        { "slug": "dd-parchment",    "color": "#E8E0CC", "name": "Dalenii Parchment" },
+        { "slug": "dd-rule",         "color": "#C4B49A", "name": "Dalenii Rule" },
+        { "slug": "soe-bg",          "color": "#3D3426", "name": "SOE Background" },
+        { "slug": "soe-paper",       "color": "#D9CDB4", "name": "SOE Paper" },
+        { "slug": "soe-sepia",       "color": "#8B6F47", "name": "SOE Sepia" },
+        { "slug": "soe-border",      "color": "#4A3E2A", "name": "SOE Border" },
+        { "slug": "adv-bg",          "color": "#0D0D0F", "name": "Adversaries Background" },
+        { "slug": "adv-dark",        "color": "#141418", "name": "Adversaries Dark" },
+        { "slug": "adv-surface",     "color": "#252530", "name": "Adversaries Surface" },
+        { "slug": "adv-text",        "color": "#F0F0F8", "name": "Adversaries Text" },
+        { "slug": "adv-body",        "color": "#8888A0", "name": "Adversaries Body" },
+        { "slug": "adv-red",         "color": "#C8374A", "name": "Adversaries Red" },
+        { "slug": "adv-red-hot",     "color": "#E04558", "name": "Adversaries Red Hot" },
+        { "slug": "adv-red-hover",   "color": "#A02030", "name": "Adversaries Red Hover" },
+        { "slug": "adv-muted",       "color": "#52525E", "name": "Adversaries Muted" },
+        { "slug": "adv-border",      "color": "#2E2E3A", "name": "Adversaries Border" },
+        { "slug": "murray-bg",       "color": "#1A2535", "name": "Murray Background" },
+        { "slug": "murray-text",     "color": "#C8D8E8", "name": "Murray Text" },
+        { "slug": "murray-body",     "color": "#3A5A7A", "name": "Murray Body" },
+        { "slug": "murray-blue",     "color": "#5B8DB8", "name": "Murray Blue" },
+        { "slug": "murray-border",   "color": "#2A3A4A", "name": "Murray Border" },
+        { "slug": "series-hub-bg",   "color": "#111114", "name": "Series Hub Background" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "'EB Garamond', Georgia, serif",
+          "slug": "eb-garamond",
+          "name": "EB Garamond",
+          "fontFace": [
+            {
+              "src": "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap",
+              "fontWeight": "400 600",
+              "fontStyle": "normal"
+            }
+          ]
+        },
+        {
+          "fontFamily": "'Playfair Display', Georgia, serif",
+          "slug": "playfair-display",
+          "name": "Playfair Display",
+          "fontFace": [
+            {
+              "src": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap",
+              "fontWeight": "700 900",
+              "fontStyle": "normal"
+            }
+          ]
+        },
+        {
+          "fontFamily": "'Barlow Condensed', 'Arial Narrow', sans-serif",
+          "slug": "barlow-condensed",
+          "name": "Barlow Condensed",
+          "fontFace": [
+            {
+              "src": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&display=swap",
+              "fontWeight": "400 900",
+              "fontStyle": "normal"
+            }
+          ]
+        },
+        {
+          "fontFamily": "'Barlow', system-ui, sans-serif",
+          "slug": "barlow",
+          "name": "Barlow",
+          "fontFace": [
+            {
+              "src": "https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap",
+              "fontWeight": "400 600",
+              "fontStyle": "normal"
+            }
+          ]
+        },
+        {
+          "fontFamily": "'Inter', system-ui, -apple-system, sans-serif",
+          "slug": "inter",
+          "name": "Inter",
+          "fontFace": [
+            {
+              "src": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap",
+              "fontWeight": "400 600",
+              "fontStyle": "normal"
+            }
+          ]
+        }
+      ],
+      "defaultFontSizes": false,
+      "fontSizes": [
+        { "slug": "small",   "size": "0.875rem", "name": "Small"   },
+        { "slug": "medium",  "size": "1rem",     "name": "Medium"  },
+        { "slug": "large",   "size": "1.25rem",  "name": "Large"   },
+        { "slug": "x-large", "size": "1.75rem",  "name": "X Large" },
+        { "slug": "xx-large","size": "2.5rem",   "name": "XX Large"}
+      ]
+    },
+    "layout": {
+      "contentSize": "680px",
+      "wideSize": "1100px"
+    },
+    "spacing": {
+      "spacingScale": {
+        "operator": "*",
+        "increment": 1.5,
+        "steps": 7,
+        "mediumStep": 1.5,
+        "unit": "rem"
+      }
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#FAF8F4",
+      "text": "#1C1814"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--eb-garamond)",
+      "fontSize": "var(--wp--preset--font-size--medium)",
+      "lineHeight": "1.85"
+    },
+    "elements": {
+      "link": {
+        "color": { "text": "#3A342C" },
+        ":hover": { "color": { "text": "#8B6F47" } }
+      },
+      "h1": { "typography": { "fontFamily": "var(--wp--preset--font-family--playfair-display)", "fontSize": "var(--wp--preset--font-size--xx-large)", "fontWeight": "700", "lineHeight": "1.1" } },
+      "h2": { "typography": { "fontFamily": "var(--wp--preset--font-family--playfair-display)", "fontSize": "var(--wp--preset--font-size--x-large)",  "fontWeight": "700", "lineHeight": "1.2" } },
+      "h3": { "typography": { "fontFamily": "var(--wp--preset--font-family--playfair-display)", "fontSize": "var(--wp--preset--font-size--large)",    "fontWeight": "700", "lineHeight": "1.3" } }
+    }
+  },
+  "customTemplates": [
+    { "name": "single-book-wwii",    "title": "Single Book — SOE WWII",           "postTypes": ["book"] },
+    { "name": "single-book-crime",   "title": "Single Book — Adversaries Crime",  "postTypes": ["book"] },
+    { "name": "single-book-spy",     "title": "Single Book — Murray Spy",          "postTypes": ["book"] },
+    { "name": "single-book-default", "title": "Single Book — Default",             "postTypes": ["book"] },
+    { "name": "archive-book",        "title": "Book Archive",                      "postTypes": ["book"] },
+    { "name": "page-adversaries",    "title": "Page — Adversaries Series",         "postTypes": ["page"] },
+    { "name": "page-series",         "title": "Page — Series Hub",                 "postTypes": ["page"] }
+  ]
+}
